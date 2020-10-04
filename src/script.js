@@ -1,11 +1,5 @@
-import { model } from './model';
 import './styles/style.css';
+import {model} from './model';
+import { App } from './classes/app'
 
-// $ - DOM element
-const $site = document.querySelector('#site');
-
-model.forEach(block => {
-    $site.insertAdjacentHTML('beforeend', block.toHTML());
-});
-
-
+new App(model);
