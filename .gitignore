@@ -2,3 +2,7 @@
 .DS_Store
 Thumbs.db
 .idea
+node_modules
+package.json
+package-lock.json
+.cache
